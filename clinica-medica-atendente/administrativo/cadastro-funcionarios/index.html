@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Funcionários</title>
+    <link rel="stylesheet" href="./resourse/style-funcionarios.css">
+</head>
+<body>
+    <header id="head-menu">
+        <div id="logo-menu">
+            <a href="../../menu/index.html"></a>
+            <img id="logo" src="img/logo/logo-clinica-medica.png"></div>
+    
+    <main id="all">
+    </header>
+    <aside id="side-menu">
+        <ul type="none" id="l1" class="lists-aside"> 
+            <h2 class="title-lists">ADMINISTRATIVO</h2>
+            <hr>
+            <li id="funcionarios"class="li-aside"><a href="./index.html">Cadastro de funcionários</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-usuarios/index.html">Cadastro de usuários</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-especialidade/index.html">Cadastro de especialidades</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-medico/index.html">Cadastro de Médicos</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-convenio/index.html">Cadastro de Convênio</a></li>
+            <hr>
+        </ul>
+        <ul type="none" id="l3" class="lists-aside"> 
+            <h2 class="title-lists">AGENDAMENTO</h2>
+            <hr>
+            <li class="li-aside"><a href="../../agendamento/Cadastro de pacientes/index.html">Cadastro de Pacientes</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../agendamento/consultas/index.html">Consultas</a></li>
+            <hr>
+        </ul>
+    </aside>
+    <section id="sec-menu">
+        <h2 id="title-sec">CADASTRO DE FUNCIONÁRIOS</h2>
+        <form> 
+            <label tabindex="0" for="nome-completo">Nome completo:</label>
+            <input class="sec-inp" type="text" id="nome-completo" name="nome-completo" required>
+            &nbsp;&nbsp;&nbsp; <br>
+          
+            <label tabindex="1" for="rg">RG:</label>
+            <input class="sec-inp" type="text" id="rg" name="rg" required>&nbsp;&nbsp;&nbsp; <br>
+
+            <label tabindex="2" for="orgao">Orgão emissor:</label>
+            <input class="sec-inp" type="text" id="orgao" name="orgao" required>&nbsp;&nbsp;&nbsp;<br>
+          
+            <label tabindex="3" for="cpf">CPF:</label>
+            <input class="sec-inp" type="text" id="cpf" name="cpf" required>&nbsp;&nbsp;&nbsp;<br>
+          
+            <label tabindex="4" for="endereco">Endereço completo:</label>
+            <input class="sec-inp" type="text" id="endereco" name="endereco" required>&nbsp;&nbsp;&nbsp;<br>
+          
+            <label tabindex="5" for="cidade">Cidade:</label>
+            <input class="sec-inp" type="text" id="cidade" name="cidade" required>&nbsp;&nbsp;&nbsp;
+          
+            <label tabindex="6" for="estado">Estado:</label>
+            <input class="sec-inp" type="text" id="estado" name="estado" required>&nbsp;&nbsp;&nbsp;
+          
+            <label tabindex="7" for="cep">CEP:</label>
+            <input class="sec-inp" type="text" id="cep" name="cep" required>&nbsp;&nbsp;&nbsp;<br>
+          
+            <label tabindex="8" for="telefone-celular">Telefone celular:</label>
+            <input class="sec-inp" type="text" id="telefone-celular" name="telefone-celular" required>&nbsp;&nbsp;&nbsp;
+          
+            <label tabindex="9" for="data-nascimento">Data de nascimento:</label>
+            <input class="sec-inp" type="date" id="data-nascimento" name="data-nascimento" required>&nbsp;&nbsp;&nbsp;
+          
+            <label tabindex="10" for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+              <option value=""></option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">Outro</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+          
+            <label tabindex="11" for="ctps">Número da CTPS:</label>
+            <input class="sec-inp" type="text" id="ctps" name="ctps" required> &nbsp;&nbsp;&nbsp;&nbsp;
+  
+            <label tabindex="12" for="pis">Número do PIS:</label>
+            <input class="sec-inp" type="text" id="pis" name="pis"> <br>
+
+            <input class="sec-inp" type="submit" id="submit" value="Cadastrar">
+
+            <input class="sec-inp" type="button" id="limpar" value="Limpar">
+          </form>
+          
+    </section>
+    </main>
+</body>
+<script src="script-menu.js"></script>
+</html>

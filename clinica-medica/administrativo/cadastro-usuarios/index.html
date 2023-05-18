@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuários</title>
+    <link rel="stylesheet" href="./resourse/style-usuarios.css">
+</head>
+<body>
+    <header id="head-menu">
+        <div id="logo-menu">
+            <a href="../../menu/index.html"></a>
+            <img id="logo" src="img/logo/logo-clinica-medica.png"></div>
+    
+    <main id="all">
+    </header>
+    <aside id="side-menu">
+        <ul type="none" id="l1" class="lists-aside"> 
+            <h2 class="title-lists">ADMINISTRATIVO</h2>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-funcionarios/index.html">Cadastro de funcionários</a></li>
+            <hr>
+            <li id="usuarios"class="li-aside"><a href="./index.html">Cadastro de usuários</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-especialidade/index.html">Cadastro de especialidades</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-medico/index.html">Cadastro de Médicos</a></li>
+            <hr>
+            <li class="li-aside"><a href="../cadastro-convenio/index.html">Cadastro de Convênio</a></li>
+            <hr>
+        </ul>
+        <ul type="none" id="l2" class="lists-aside"> 
+            <h2 class="title-lists">ATENDIMENTO</h2>
+            <hr>
+            <li class="li-aside"><a href="../../atendimento/pronturario do paciente/index.html">Prontuário do paciente</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../atendimento/registro de atendimento/index.html">Registro de atendimento</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../atendimento/receituário/index.html">Receituário</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../atendimento/exames/index.html">Exames</a></li>
+            <hr>
+        </ul>
+        <ul type="none" id="l3" class="lists-aside"> 
+            <h2 class="title-lists">AGENDAMENTO</h2>
+            <hr>
+            <li class="li-aside"><a href="../../agendamento/Cadastro de pacientes/index.html">Cadastro de Pacientes</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../agendamento/consultas/index.html">Consultas</a></li>
+            <hr>
+        </ul>
+    </aside>
+    <section id="sec-menu">
+        <h2 id="title-sec">CADASTRO DE USUARIOS</h2>
+        <form> 
+            <label tabindex="0" for="cpf">CPF:</label>
+            <input class="sec-inp" type="text" id="cpf" name="cpf" required>
+            &nbsp;&nbsp;&nbsp; <br>
+          
+            <label tabindex="1" for="user">Usuário:</label>
+            <input class="sec-inp" type="text" id="user" name="user" required>&nbsp;&nbsp;&nbsp; <br>
+          
+            <label tabindex="2" for="password">Senha:</label>
+            <input class="sec-inp" type="text" id="password" name="password" required>&nbsp;&nbsp;&nbsp; <br>
+          
+            <label tabindex="3" for="confirmar">Confirmar senha:</label>
+            <input class="sec-inp" type="text" id="confirmar" name="confirmar" required>&nbsp;&nbsp;&nbsp; <br>
+
+            <input class="sec-inp" type="submit" id="submit" value="Cadastrar">
+
+            <input class="sec-inp" type="button" id="limpar" value="Limpar">
+          </form>
+
+          
+    </section>
+    </main>
+</body>
+<script src="script-menu.js"></script>
+</html>

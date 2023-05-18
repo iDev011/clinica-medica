@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="./resourse/style-agendar.css">
+</head>
+<body>
+    <header id="head-menu">
+        <div id="logo-menu">
+            <a href="../../menu/index.html"></a>
+            <img id="logo" src="./img/logo/logo-clinica-medica.png" alt=""></div>
+    </header>
+
+    <aside id="side-menu">
+        <ul type="none" id="l1" class="lists-aside"> 
+            <h2 class="title-lists">ADMINISTRATIVO</h2>
+            <hr>
+            <li class="li-aside"><a href="../../administrativo/cadastro-funcionarios/index.html">Cadastro de funcionários</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../administrativo/cadastro-usuarios/index.html">Cadastro de usuários</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../administrativo/cadastro-especialidade/index.html">Cadastro de especialidades</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../administrativo/cadastro-medico/index.html">Cadastro de Médicos</a></li>
+            <hr>
+            <li class="li-aside"><a href="../../administrativo/cadastro-convenio/index.html">Cadastro de Convênio</a></li>
+            <hr>
+        </ul>
+        <ul type="none" id="l3" class="lists-aside"> 
+            <h2 class="title-lists">AGENDAMENTO</h2>
+            <hr>
+            <li id="clientes" class="li-aside"><a href="../cadastro de pacientes/index.html">Cadastro de Pacientes</a></li>
+            <hr>
+            <li id="consultas" class="li-aside"><a href="../consultas/index.html">Consultas</a></li>
+        </ul>
+    </aside>
+    <section id="sec-menu">
+        
+            <div class="nav-bar" id="div-con">
+                <a href="./index.html">Consultas</a>
+            </div>
+            <div class="nav-bar" id="div-add">
+                <a href="../consultas/agendar.html">Agendar</a>
+            </div>
+        
+
+        <h2 id="title-sec">AGENDAR</h2>
+
+        <form> 
+            <label tabindex="0" for="id-pac">ID Paciente:</label>
+            <input class="sec-inp" type="number" id="id-pac" name="id-pac" required>
+            &nbsp;&nbsp;&nbsp;
+          
+            <label tabindex="1" for="id-a">ID Atendente:</label>
+            <input class="sec-inp" type="number" id="id-a" name="id-a" required>&nbsp;&nbsp;&nbsp;<br>
+          
+            <label tabindex="2" for="id-m">ID Médico:</label>
+            <input class="sec-inp" type="number" id="id-m" name="id-m" required>&nbsp;&nbsp;&nbsp;
+          
+            <label tabindex="3" for="data"> Data:</label>
+            <input class="sec-inp" type="date" id="data" name="data" required>&nbsp;&nbsp;&nbsp;
+
+            <label tabindex="4" for="hour">Hora: </label><input class="sec-inp" type="time" name="hour"
+            id="hour"><br>
+
+            <input class="sec-inp" type="submit" id="submit" value="Cadastrar">
+
+            <input class="sec-inp" type="button" id="limpar" value="Limpar">
+        </form>
+    </section>
+</body>
+<script src="script-menu.js"></script>
+</html>
